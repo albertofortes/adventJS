@@ -10,14 +10,9 @@ function drawTable(data) {
 
   const capitalize = val => String(val).charAt(0).toUpperCase() + String(val).slice(1)
 
-
   const longest = []
-  headers.map((th, index) => longest.push(Math.max(th.length, ...data.map(td => `${td[th]}`.length))))
+  headers.forEach((th, index) => longest.push(Math.max(th.length, ...data.map(td => `${td[th]}`.length))))
 
-  console.log('longest: ', longest);
-  
-
-  
   const separators = `+-${('-').repeat(longest[0])}-+-${('-').repeat(longest[1])}-+`
 
   let output = `${separators}\n`
@@ -66,3 +61,4 @@ console.log(drawTable([
 
 console.log(drawTable([]))
 console.log(drawTable())
+console.log(drawTable(''))

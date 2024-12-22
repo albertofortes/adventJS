@@ -3,6 +3,7 @@
   * @returns {string}
   */
 function drawTable(data) {
+  /*
   if(!data || !data.length) return ''
 
   const headers = Object.keys(data[0])
@@ -24,6 +25,22 @@ function drawTable(data) {
   output += `${separators}`
 
   return output
+  */
+  if (!data || !data.length) return ''
+
+  const headers = Object.keys(data[0])
+  const content = data.map(row => Object.values(row))
+  const capitalize = val => String(val).charAt(0).toUpperCase() + String(val).slice(1)
+  const longest = headers.map((header, index) => Math.max(header.length, ...content.map(row => `${row[index]}`.length)))
+  const separators = `+-${longest.map(len => '-'.repeat(len)).join('-+-')}-+`
+
+  let output = `${separators}\n`
+
+  output += `| ${headers.map((header, index) => `${capitalize(header)}${' '.repeat(longest[index] - header.length)}`).join(' | ')} |\n${separators}\n`
+
+  output += content.map(row => `| ${row.map((cell, index) => `${cell}${' '.repeat(longest[index] - cell.toString().length)}`).join(' | ')} |\n`).join('')
+
+  output += `${separators}`
 }
 
 

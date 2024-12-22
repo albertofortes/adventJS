@@ -8,14 +8,20 @@ function fixGiftList(received, expected) {
   const missing = {}
 
   received.forEach(gift => {
-    if (received.filter(g => g === gift).length > expected.filter(g => g === gift).length) {
-      extra[gift] = received.filter(g => g === gift).length - expected.filter(g => g === gift).length
+    const receivedGifts = received.filter(g => g === gift).length
+    const expectedGifts = expected.filter(g => g === gift).length
+
+    if (receivedGifts > expectedGifts) {
+      extra[gift] = receivedGifts - expectedGifts
     }
   })
 
   expected.forEach(gift => {
-    if (received.filter(g => g === gift).length < expected.filter(g => g === gift).length) {
-      missing[gift] = expected.filter(g => g === gift).length - received.filter(g => g === gift).length
+    const receivedGifts = received.filter(g => g === gift).length
+    const expectedGifts = expected.filter(g => g === gift).length
+
+    if (receivedGifts < expectedGifts) {
+      missing[gift] = expectedGifts - receivedGifts
     }
   })
 

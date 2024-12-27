@@ -24,9 +24,19 @@ My solutions to programming challenges of [AdventJS 2024](https://adventjs.dev/e
 [![Day](https://badgen.net/badge/12/%E2%98%85%E2%98%86%E2%98%86%E2%98%86%E2%98%86/green)](https://adventjs.dev/en/challenges/2024/12)
 [![Day](https://badgen.net/badge/13/%E2%98%86%E2%98%86%E2%98%86%E2%98%86%E2%98%86/grey)](https://adventjs.dev/en/challenges/2024/13)
 [![Day](https://badgen.net/badge/14/%E2%98%85%E2%98%86%E2%98%86%E2%98%86%E2%98%86/green)](https://adventjs.dev/en/challenges/2024/14)
-[![Day](https://badgen.net/badge/15/%E2%98%86%E2%98%86%E2%98%86%E2%98%86%E2%98%86/green)](https://adventjs.dev/en/challenges/2024/15)
+[![Day](https://badgen.net/badge/15/%E2%98%85%E2%98%86%E2%98%86%E2%98%86%E2%98%86/green)](https://adventjs.dev/en/challenges/2024/15)
 [![Day](https://badgen.net/badge/16/%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86/green)](https://adventjs.dev/en/challenges/2024/16)
 [![Day](https://badgen.net/badge/17/%E2%98%85%E2%98%86%E2%98%86%E2%98%86%E2%98%86/ffd700)](https://adventjs.dev/en/challenges/2024/17)
+[![Day](https://badgen.net/badge/18/%E2%98%85%E2%98%86%E2%98%86%E2%98%86%E2%98%86/red)](https://adventjs.dev/en/challenges/2024/18)
+[![Day](https://badgen.net/badge/19/%E2%98%86%E2%98%86%E2%98%86%E2%98%86%E2%98%86/red)](https://adventjs.dev/en/challenges/2024/19)
+[![Day](https://badgen.net/badge/20/%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85/green)](https://adventjs.dev/en/challenges/2024/20)
+[![Day](https://badgen.net/badge/20/%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85/green)](https://adventjs.dev/en/challenges/2024/20)
+[![Day](https://badgen.net/badge/21/%E2%98%85%E2%98%85%E2%98%86%E2%98%86%E2%98%86/green)](https://adventjs.dev/en/challenges/2024/21)
+[![Day](https://badgen.net/badge/22/%E2%98%86%E2%98%86%E2%98%86%E2%98%86%E2%98%86/ffd700)](https://adventjs.dev/en/challenges/2024/22)
+[![Day](https://badgen.net/badge/23/%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%86/green)](https://adventjs.dev/en/challenges/2024/23)
+[![Day](https://badgen.net/badge/24/%E2%98%86%E2%98%86%E2%98%86%E2%98%86%E2%98%86/ffd700)](https://adventjs.dev/en/challenges/2024/24)
+[![Day](https://badgen.net/badge/25/%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85/ffd700)](https://adventjs.dev/en/challenges/2024/25)
+[![Day](https://badgen.net/badge/26/%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85/green)](https://adventjs.dev/en/challenges/2024/26)
 
 ## Tests
 

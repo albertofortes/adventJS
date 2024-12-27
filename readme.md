@@ -8,7 +8,7 @@ My solutions to programming challenges of [AdventJS 2024](https://adventjs.dev/e
 
 `/. node [filename]`
 
-## Challenges 2024
+### Challenges 2024
 
 [![Day](https://badgen.net/badge/01/%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85/green)](https://adventjs.dev/en/challenges/2024/1)
 [![Day](https://badgen.net/badge/02/%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85/green)](https://adventjs.dev/en/challenges/2024/2)
@@ -38,7 +38,16 @@ My solutions to programming challenges of [AdventJS 2024](https://adventjs.dev/e
 [![Day](https://badgen.net/badge/25/%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85/ffd700)](https://adventjs.dev/en/challenges/2024/25)
 [![Day](https://badgen.net/badge/26/%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85/green)](https://adventjs.dev/en/challenges/2024/26)
 
-## Tests
+#####
+
+Legend:
+
+
+![Dificulty: easy](https://badgen.net/badge/Day/Easy/green)
+![Dificulty: Medium](https://badgen.net/badge/Day/Medium/ffd700)
+![Dificulty: Hard](https://badgen.net/badge/Day/Hard/red)
+
+### Tests
 
 I'm using simple Jest tests.
 to launch it type `yarn test` for all days tests or type ``yarn test 01-challenge.test.js` for just puzzle 01 test, etc.
